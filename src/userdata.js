@@ -24,6 +24,6 @@ form.addEventListener('submit', async event => {
 
 
     storedFormData.push(formData);
-    console.log(storedFormData)
+    // console.log(storedFormData)
     localStorage.setItem('formData', JSON.stringify(storedFormData));
 }
