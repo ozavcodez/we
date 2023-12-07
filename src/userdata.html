@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+
+</head>
+<body>
+    <form action="" class="w-[60%] mx-auto my-20 space-y-10">
+        <h1 class="text-4xl font-semibold underline underline-offset-2">Sign Up</h1>
+        <div  class= "flex flex-col items-start ">
+            <label class="text-[#333333] md:text-[20px] md:my-[5px] inline-block font-semibold text-sm" for="">Full Name</label>
+            <input id="fullName" required class="  w-full p-[2%] mt-2 rounded-lg border-2 border-[#333333] border-opacity-30 hover:border font-medium" type="text" placeholder="Ajayi David">
+        </div>
+        <div  class= "flex flex-col items-start md:bg-inherit md:border-none md:shadow-none bg-white rounded-lg shadow-md">
+            <label class="text-[#333333] md:text-[20px] md:my-[5px] inline-block font-semibold text-sm" for="">Email</label>
+            <input id="email" required class="  w-full p-[2%] mt-2 rounded-lg border-2 border-[#333333] border-opacity-30 hover:border font-medium" type="email" placeholder="Ajayi@gmail.com">
+        </div>
+        <div class= "flex flex-col items-start md:bg-inherit md:border-none md:shadow-none bg-white rounded-lg shadow-md" >
+            <label class="text-[#333333] md:text-[20px] md:my-[5px] inline-block font-semibold text-sm" for="">Sex</label>
+            <select required name="gender"  class="  w-full p-[2%] mt-2 rounded-lg border-2 border-[#333333] border-opacity-30 hover:border font-medium"  id="gender">
+                <option value="" disabled selected>select your gender</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+            </select>          
+        </div>
+        <div  class= "flex flex-col items-start md:bg-inherit md:border-none md:shadow-none bg-white rounded-lg  shadow-md" >
+            <label for="phoneNumber" class="text-[#333333] md:text-[20px] md:my-[5px] inline-block font-semibold text-sm" for="">Phone Number</label>
+            <input id="phoneNumber"  name="phoneNumber"   required class="  w-full p-[2%] mt-2 rounded-lg border-2 border-[#333333] border-opacity-30 hover:border font-medium"  type="number" placeholder="07039287546">
+            
+        </div>
+        <button  class="mb-3 px-10 py-2 justify-center rounded-lg text-center font-semibold text-lg text-white bg-[#477FEA] ">Register</button>   
+        
+    </form>
+</body>
+</html>
