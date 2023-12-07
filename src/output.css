@@ -892,6 +892,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-\[3\%\]{
+  padding: 3%;
+}
+
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -925,6 +929,11 @@ video {
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.px-\[3\%\]{
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .pt-\[3\%\]{
