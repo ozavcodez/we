@@ -28,10 +28,16 @@ function addNewRowsToTable() {
     console.log("then I came")
     
         var user = JSON.parse(localStorage.getItem("formData"))
-        console.log(user)
+        // console.log(user)
         data = user
         addNewRowsToTable()
         // console.log(data)
     
 }
 getusers()
+
+function deleteUser(id) {
+    
+    return data.filter((obj) => obj.id !== id);
+
+  }
