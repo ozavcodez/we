@@ -6,8 +6,8 @@ form.addEventListener('submit', async event => {
    const fname = document.querySelector('#fullName').value; 
    const phoneNumber = document.querySelector('#phoneNumber').value; 
    const gender = document.querySelector('#gender').value; 
-   const msg = document.getElementById("msg");
-   const ermsg = document.getElementById("ermsg")
+  //  const msg = document.getElementById("msg");
+  //  const ermsg = document.getElementById("ermsg")
   
     const formData = {
         fullName: fname,
@@ -22,7 +22,8 @@ form.addEventListener('submit', async event => {
   function saveFormData(formData) {
     const storedFormData = JSON.parse(localStorage.getItem('formData')) || [];
 
-    storedFormData.push(formData);
 
+    storedFormData.push(formData);
+    console.log(storedFormData)
     localStorage.setItem('formData', JSON.stringify(storedFormData));
 }

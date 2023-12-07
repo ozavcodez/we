@@ -1,4 +1,4 @@
-
+var user = JSON.parse(localStorage.getItem("formData"))
 var data = []
 function addNewRowsToTable() {
     
